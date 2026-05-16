@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="ourplaces">
+    <method name="doLinkClick">
+      <browse url="https://discord.gg/9jPCktGs5M" url-type="string"/>
+    </method>
+    <method name="doHideClick">
+      <fadeOut continue="1" continue-type="" duration="1000" duration-type="integer" object="~sender" object-type="object"/>
+      <fadeOut continue="1" continue-type="" duration="1000" duration-type="integer" object="warnframe" object-type="object"/>
+      <fadeOut continue="" continue-type="" duration="1000" duration-type="integer" object="warntextarea" object-type="object"/>
+      <elementHide object="~sender" object-type="object"/>
+      <elementHide object="warnframe" object-type="object"/>
+    </method>
+    <method name="doButtonClick">
+      <applicationShutdown/>
+    </method>
+  <method name="doButtonAltClick">
+      <browse url="https://www.roblox.com/games/96190706334253/The-Building-Place-Objects-Update" url-type="string"/>
+    </method>
+  <method name="doButton3Click">
+      <loadForm form="MainForm" form-type="form" savePosition="1" savePosition-type="" saveSize="" saveSize-type=""/>
+    </method>
+  </class>
+</root>
