@@ -1,0 +1,20 @@
+﻿<Window x:Class="NecoBlox.places"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NecoBlox"
+        mc:Ignorable="d"
+        Title="NecoBlox v2.01" Height="450" Width="800" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen" Icon="/necoblox.png" Cursor="Arrow">
+    <Grid>
+        <Image HorizontalAlignment="Left" Height="135" Margin="86,52,0,0" VerticalAlignment="Top" Width="119" Source="/Снимок экрана 2026-04-09 143857.png"/>
+        <TextBox HorizontalAlignment="Left" Margin="329,52,0,0" TextWrapping="Wrap" Text="                           Building Place&#xD;&#xA;In this place you can build! Warn - this game only for pc.&#xD;&#xA;" VerticalAlignment="Top" Width="263" Height="68" TextChanged="TextBox_TextChanged"/>
+        <Button Content="Play now" HorizontalAlignment="Left" Margin="368,147,0,0" VerticalAlignment="Top" Height="40" Width="185" Click="Button_Click" Cursor="Hand"/>
+        <Button Content="Back" HorizontalAlignment="Left" Margin="722,0,0,0" VerticalAlignment="Top" Click="Button_Click_1" Cursor="Hand"/>
+        <Image HorizontalAlignment="Left" Height="103" Margin="42,246,0,0" VerticalAlignment="Top" Width="162" Source="/Снимок экрана 2026-05-11 154119.png"/>
+        <TextBox HorizontalAlignment="Left" Margin="291,234,0,0" TextWrapping="Wrap" Text="                                  Battle Experience (13+)&#xD;&#xA;This is place where you can have fun with friends!" VerticalAlignment="Top" Width="339" Height="92"/>
+        <Rectangle HorizontalAlignment="Left" Height="434" Stroke="Black" VerticalAlignment="Center" Width="219"/>
+        <Button Content="Play now" HorizontalAlignment="Left" Margin="368,344,0,0" VerticalAlignment="Top" Height="45" Width="185" Click="Button_Click_2" Cursor="Hand"/>
+
+    </Grid>
+</Window>

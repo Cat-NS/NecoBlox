@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows10.0.17763.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <SupportedOSPlatformVersion>10.0.17763.0</SupportedOSPlatformVersion>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="necoblox.png" />
+    <None Remove="Снимок экрана 2026-04-09 141428.png" />
+    <None Remove="Снимок экрана 2026-04-09 143857.png" />
+    <None Remove="Снимок экрана 2026-04-09 144443.png" />
+    <None Remove="Снимок экрана 2026-05-11 154119.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="necoblox.png" />
+    <Resource Include="Снимок экрана 2026-04-09 141428.png" />
+    <Resource Include="Снимок экрана 2026-04-09 143857.png" />
+    <Resource Include="Снимок экрана 2026-04-09 144443.png" />
+    <Resource Include="Снимок экрана 2026-05-11 154119.png" />
+  </ItemGroup>
+
+</Project>

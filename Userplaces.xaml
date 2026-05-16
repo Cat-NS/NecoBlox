@@ -1,0 +1,15 @@
+﻿<Window x:Class="NecoBlox.userplaces"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NecoBlox"
+        mc:Ignorable="d"
+        Title="NecoBlox 2.01" Height="493" Width="800" ResizeMode="CanMinimize" Cursor="Arrow" Icon="/necoblox.png" WindowStartupLocation="CenterScreen">
+    <Grid Margin="0,0,0,-6">
+        <Label Content="Nothing:(" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="60" Height="90" Width="284" FontWeight="Bold"/>
+        <Button Content="Add place" HorizontalAlignment="Left" VerticalAlignment="Top" Width="73" Height="21" Click="Button_Click" Cursor="Hand"/>
+        <Button Content="Back" HorizontalAlignment="Left" Margin="709,0,0,0" VerticalAlignment="Top" Cursor="Hand" Click="Button_Click_1" Height="21"/>
+
+    </Grid>
+</Window>
