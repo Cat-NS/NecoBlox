@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<head>
+    <style>
+        
+.gradient-title {
+  /* Цвета: от фиолетового (#8a2be2) до оранжевого (#ff7f50) слева направо */
+  background: linear-gradient(to right, #8a2be2, #ff7f50);
+  
+  /* Магия обрезки фона по форме букв */
+  -webkit-background-clip: text;
+  background-clip: text;
+  
+  /* Делаем сам текст прозрачным, чтобы просвечивал градиент */
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  
+  /* Дополнительно: делаем шрифт жирнее и крупнее для лучшего эффекта */
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 2rem; 
+  display: inline-block; /* Защищает градиент от растягивания на всю ширину строки */
+}
+
+  
+    
+        body { background-color: #1a1a1a; color: #ffffff; font-family: sans-serif; padding: 30px; }
+        .yellow-text { color: #ffeb3b; }
+        .red-text { color: #f44336; }
+        /* Стили для кнопок */
+        button { 
+            background: #333; color: white; border: 1px solid #555; 
+            padding: 5px 15px; margin-right: 5px; cursor: pointer; border-radius: 4px; 
+        }
+        button:hover { background: #444; }
+    </style>
+
+</head>
+<body>
+    <h2> Hello dear user! </h2>
+    <h3 class="gradient-title">  Using v3.0 NecoBlox version </h3>
+    <h3> Main </h3>
+    <p>
+        <button onclick="window.pywebview.api.run()">Run Roblox</button>
+        <button onclick="window.pywebview.api.runstudio()">Run Studio</button>
+    </p>
+    <h3> For Russia users </h3>
+    <p>
+        <button onclick="window.pywebview.api.fixicons()">Fix Roblox images (For russian users)</button>
+    </p>
+    <h3> Other </h3>
+    <p>
+        <button onclick="window.pywebview.api.rerun()">Update Roblox / ReInstall</button>
+        <button onclick="window.pywebview.api.restudio()">Update Roblox Studio / ReInstall</button>
+    </p>
+    <p>
+        <button onclick="window.pywebview.api.github()">Github</button>
+    </p>
+    <h6 style="color: #585858;">NecoStudio INC. 2026 version</h6>
+    <h6 style="color: #585858;">Thanks for GEMINI / Google ai search because he helped with style and html api</h6>
+</body>
